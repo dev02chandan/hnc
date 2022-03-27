@@ -47,10 +47,11 @@ const onLoad = marker => {
 function MyComponent() {
 
   let [results, setResults] = useState([]);
+  getlocs();
 
   return (
     <div>
-      {getlocs()}
+
     <nav class="navbar navbar-dark bg-dark" style={{padding:"25px 50px"}}>
       <a class="navbar-brand" href="#">
         <img src={logo} width="80" height="80" alt="Logo"/>

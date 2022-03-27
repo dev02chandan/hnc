@@ -5,7 +5,7 @@ const app = express();
 
 app.use(cors())
 app.use(express.json())
-app.listen(3000)
+app.listen(3004)
 
 const getMarkerLocations = async () => {
 
@@ -15,12 +15,11 @@ const getMarkerLocations = async () => {
     return returnvar;
 }
 
-app.post('http://localhost:3004/marker', (req, res)=>{
+app.post('/marker', (req, res)=>{
     let markerQuery = getMarkerLocations();
 
     markerQuery.then((results)=>{
-        console.log(results)
-        res.send(results).catch(err=>console.log(err))})
+        res.send(results)})
 
 })
 
