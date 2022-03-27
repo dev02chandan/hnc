@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.hover-green:hover {
+  color: #4da69a;
+  cursor: pointer;
+}
+
+.reg-font {
+  font-family: Glacial Indifference Regular;
+}
+
+.green-font {
+  font-family: Glacial Indifference Regular;
+  color: #4da69a;
+}
