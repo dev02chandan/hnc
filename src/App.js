@@ -67,7 +67,7 @@ function MyComponent() {
       </ul>
     </nav>
 
-    {/* <Navbar></Navbar> /}
+    {/* <Navbar></Navbar> /} */}
 
 
 
@@ -76,7 +76,7 @@ function MyComponent() {
       transform: 'translate(-50%, -50%)',
       paddingTop: '100px'
       }}>
-        {/ Centering the Map in the page */}
+        {/* {/ Centering the Map in the page */}
 
     <LoadScript
       googleMapsApiKey="AIzaSyDcCVE991iVGqrHdIhTM6Rl-XmKMXwbYxQ"
@@ -93,6 +93,7 @@ function MyComponent() {
         <></>
       </GoogleMap>
     </LoadScript>
+    </div>
     </div>
   )
 }
